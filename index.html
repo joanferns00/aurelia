@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aurelia</title>
+  </head>
+  <body aurelia-app="src/main"> <!-- this tells Aurey what module contains the FW configuration and what HTML element is the host element. -->
+    <script src="scripts/system.js"></script> <!-- A module loader -->
+    <script src="scripts/config-esnext.js"></script> <!-- Configures using ESNext or TypeScript -->
+    <script src="scripts/aurelia-core.min.js"></script> <!-- Core of Aurelia -->
+    <script>
+      System.import('aurelia-bootstrapper'); //Tells Aurelia to load the framework, config it and run the application
+
+    </script>
+  </body>
+</html>
